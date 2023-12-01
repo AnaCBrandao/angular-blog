@@ -1,0 +1,31 @@
+.photo img {
+    height: 250px;
+    border-radius: 0.5em;
+}
+
+.container-card { 
+    border-radius: 0.5em;
+    width: 400px;
+    min-height: 450px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-right: 2em;
+    padding: 1.5em;
+    transition: 0.5s ease-in-out;
+    text-align: center;
+}
+
+.container-card:hover {
+    background-color: rgba(155, 155, 155, 0.651);
+}
+
+.description{
+    color: rgb(39, 39, 39);
+    margin-top: 1em;
+}
+
+.title {
+    margin-top: 1em;
+}
