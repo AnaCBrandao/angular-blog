@@ -1,4 +1,4 @@
-# movies-library
+# Programming Blog
 
 <div align="center">
   <img width="90px" src="https://cdn-icons-png.flaticon.com/512/2621/2621040.png"/>
