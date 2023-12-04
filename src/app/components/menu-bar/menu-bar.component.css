@@ -1,0 +1,36 @@
+.container-menu {
+    min-height: 90px;
+    display: flex;
+    padding: 1em;
+    
+}
+
+.container-menu ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.container-menu li {
+    padding: 0 1em;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(224, 224, 224);
+    font-size: 20px;
+    transition: 0.4s ease-in;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: none;
+    color: rgb(98, 181, 248);
+}
+
+.logo {
+    width: 60px;
+}

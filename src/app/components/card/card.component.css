@@ -1,5 +1,7 @@
 .photo img {
-    height: 250px;
+    height: 200px;
+    width: 80%;
+    min-width: 360px;
     border-radius: 0.5em;
 }
 
@@ -15,14 +17,15 @@
     padding: 1.5em;
     transition: 0.5s ease-in-out;
     text-align: center;
+    color:rgb(224, 224, 224);
 }
 
 .container-card:hover {
-    background-color: rgba(155, 155, 155, 0.651);
+    background-color: rgba(155, 155, 155, 0.247);
 }
 
 .description{
-    color: rgb(39, 39, 39);
+    color: rgb(161, 161, 161);
     margin-top: 1em;
 }
 
