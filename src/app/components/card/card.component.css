@@ -17,7 +17,7 @@
     padding: 1.5em;
     transition: 0.5s ease-in-out;
     text-align: center;
-    color:rgb(224, 224, 224);
+    
 }
 
 .container-card:hover {
@@ -31,4 +31,9 @@
 
 .title {
     margin-top: 1em;
+}
+
+a{
+    text-decoration: none;
+    color:rgb(224, 224, 224);
 }

@@ -8,7 +8,7 @@ import { ContentComponent } from './pages/content/content.component';
 const routes: Routes = [{path: '', component: HomeComponent},
 {path: 'about', component: AboutComponent},
 {path: 'contact', component: ContactComponent},
-{path: 'content', component: ContentComponent}
+{path: 'content/:id', component: ContentComponent}
 ];
 
 @NgModule({

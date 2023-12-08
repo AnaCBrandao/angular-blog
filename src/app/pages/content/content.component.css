@@ -19,3 +19,25 @@
     color: rgb(161, 161, 161);
     margin-top: 15px;
 }
+
+.content-title {
+    margin-top: 2em;
+}
+
+.return {
+    background-color: aquamarine;
+    font-weight: bold;
+    padding: 0.5em 1.5em;
+    border-radius: 1em;
+    margin-top: 2em;
+    color: black;
+    font-size: 15px;
+    cursor: pointer;
+    border: 1px solid transparent;
+}
+
+.return:hover {
+    border-color: aquamarine;
+    background-color: rgb(31, 31, 31);;
+}
+
