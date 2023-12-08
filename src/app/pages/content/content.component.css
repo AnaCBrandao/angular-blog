@@ -34,10 +34,12 @@
     font-size: 15px;
     cursor: pointer;
     border: 1px solid transparent;
+    transition: .4s ease-in-out;
 }
 
 .return:hover {
     border-color: aquamarine;
+    color: aquamarine;
     background-color: rgb(31, 31, 31);;
 }
 

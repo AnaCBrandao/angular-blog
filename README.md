@@ -5,7 +5,7 @@
 </div>
 <div align="center">
   <p>A personal programming blog made with Angular 14.</p>
-  <img src=""/>
+  <img src="/src/assets/cover.png"/>
 </div>
 
 ## Features
