@@ -11,6 +11,11 @@ import { AboutComponent } from './pages/about/about.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { ContentComponent } from './pages/content/content.component';
+import { ContactCardComponent } from './components/contact-card/contact-card.component';
+
+
+import { NgIconsModule } from '@ng-icons/core';
+import { heroUsers } from '@ng-icons/heroicons/outline';
 
 @NgModule({
   declarations: [
@@ -22,11 +27,14 @@ import { ContentComponent } from './pages/content/content.component';
     AboutComponent,
     ContactComponent,
     FooterComponent,
-    ContentComponent
+    ContentComponent,
+    ContactCardComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgIconsModule.withIcons({ heroUsers }),
+
   ],
   providers: [],
   bootstrap: [AppComponent]

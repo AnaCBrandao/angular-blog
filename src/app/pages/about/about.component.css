@@ -1,0 +1,26 @@
+.about-container {
+    color: #fff;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+}
+
+.content > h1 {
+    margin-bottom: 1em;
+    font-size: 50px;
+}
+
+.content > p {
+    margin-top: 1em;
+    font-size: 20px;
+}
+
+img{
+    width: 600px;
+    border-radius: 50%;
+}
+
+.content {
+    padding: 3em;
+    width: 50%;
+}

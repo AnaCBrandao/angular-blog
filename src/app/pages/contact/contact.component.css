@@ -1,0 +1,19 @@
+.contact-container {
+    color: antiquewhite;
+    display: flex;
+    padding: 2em;
+    justify-content: center;
+}
+
+.content {
+    width: 50%;
+    font-size: 20px;
+    margin-left: 3em;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.content > p {
+    margin-top: 1.5em;
+}
