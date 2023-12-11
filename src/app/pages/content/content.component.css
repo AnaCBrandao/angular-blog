@@ -1,7 +1,7 @@
 .container-content {
     color: #fff;
     width: 100%;
-    height: 100vh;
+    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -17,7 +17,9 @@
 
 .content-description {
     color: rgb(161, 161, 161);
-    margin-top: 15px;
+    margin-top: 30px;
+    padding: 2em;
+    font-size: 20px;
 }
 
 .content-title {
@@ -29,7 +31,7 @@
     font-weight: bold;
     padding: 0.5em 1.5em;
     border-radius: 1em;
-    margin-top: 2em;
+    margin: 2em 0;
     color: black;
     font-size: 15px;
     cursor: pointer;
@@ -41,5 +43,10 @@
     border-color: aquamarine;
     color: aquamarine;
     background-color: rgb(31, 31, 31);;
+}
+
+h3 {
+    color: aquamarine;
+    margin: 1em 0;
 }
 

@@ -1,5 +1,4 @@
 .contact-card{
-    color: rgb(53, 53, 53);
     background-color: rgba(100, 179, 216, 0.664);
     border-radius: 1.5em;
  
@@ -7,6 +6,9 @@
     flex-direction: column;
     padding: 2em;
     align-items: center;
+    font-size: 18px;
+
+    box-shadow: rgba(180, 180, 180, 0.349) 0px 50px 100px -20px, rgba(110, 110, 110, 0.164) 0px 30px 60px -30px, rgb(183, 183, 184) 0px -2px 6px 0px inset;
 }
 
 .contact-card > img {
@@ -18,8 +20,17 @@
 .contact-card > p {
     margin-top: 0.5em;
     font-weight: 500;
+    color:rgb(29, 29, 29);
 }
 
 h3 {
-    
+    background-color: rgba(37, 7, 46, 0.623);
+    padding: 1em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    border-radius: 0.5em;
+}
+
+span {
+    font-weight: bold;
 }

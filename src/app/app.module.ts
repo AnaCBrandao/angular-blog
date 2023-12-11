@@ -14,9 +14,6 @@ import { ContentComponent } from './pages/content/content.component';
 import { ContactCardComponent } from './components/contact-card/contact-card.component';
 
 
-import { NgIconsModule } from '@ng-icons/core';
-import { heroUsers } from '@ng-icons/heroicons/outline';
-
 @NgModule({
   declarations: [
     AppComponent,
@@ -33,8 +30,6 @@ import { heroUsers } from '@ng-icons/heroicons/outline';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgIconsModule.withIcons({ heroUsers }),
-
   ],
   providers: [],
   bootstrap: [AppComponent]
