@@ -9,7 +9,17 @@
     font-size: 18px;
 
     box-shadow: rgba(180, 180, 180, 0.349) 0px 50px 100px -20px, rgba(110, 110, 110, 0.164) 0px 30px 60px -30px, rgb(183, 183, 184) 0px -2px 6px 0px inset;
+    animation: flip-horizontal-bottom 2s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
 }
+
+@keyframes flip-horizontal-bottom {
+    0% {
+        transform: rotateX(-180deg);
+    }
+    100% {
+        transform: rotateX(0);
+    }
+  }
 
 .contact-card > img {
     border-radius: 50%;
