@@ -30,7 +30,7 @@
 .contact-card > p {
     margin-top: 0.5em;
     font-weight: 500;
-    color:rgb(29, 29, 29);
+   
 }
 
 h3 {
@@ -43,4 +43,29 @@ h3 {
 
 span {
     font-weight: bold;
+    color: rgb(37, 7, 46);;
+}
+
+a{
+    background-color: azure;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    border-radius: 1em;
+    padding: 0.5em 1em;
+    margin-top: 1.5em;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    transition: 0.5s ease-in-out;
+}
+
+a img{
+    height: 20px;
+    margin-right: 10px;
+}
+
+a:hover {
+    box-shadow: rgba(0, 0, 0, 0.301) 0px 54px 55px, rgba(0, 0, 0, 0.178) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;;
 }
